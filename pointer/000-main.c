@@ -1,6 +1,9 @@
 # include <stdio.h>
 # include <stdlib.h>
 
+
+// tarabalhando com ponteiros
+
 int main() {
     
     // variaveis inteiras
