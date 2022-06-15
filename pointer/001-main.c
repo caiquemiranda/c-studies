@@ -18,6 +18,13 @@ void imprimirVetorLetras(char *c, int tam){
     printf("\n");
 }
 
+void preeencherVetorInt(int *v, int tam){
+    int i;
+    for(i = 0; i < tam; i++){
+        printf("digite um valor qualquer: ");
+        scanf("%d", v + i);
+    }
+}
 // trabalhando com vetores
 int main() {
     
@@ -42,6 +49,7 @@ int main() {
     }
 
 */
+    preeencherVetorInt(vet, 10);
 
     imprimirVetor(vet, 10);
     
